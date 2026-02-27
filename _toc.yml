@@ -54,7 +54,7 @@ parts:
       - file: 5 Spanish/5 дополнение
       - file: 5 Spanish/6 обстоятельства
       - file: 5 Spanish/7 сложное предложение
-      - file:Spanish/8 испанский/8 инфинитив, причастие, герундий
+      - file: 5 Spanish/8 инфинитив, причастие, герундий
 
   - caption: Russian
     chapters:
