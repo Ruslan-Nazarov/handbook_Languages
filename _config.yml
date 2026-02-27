@@ -1,0 +1,23 @@
+# Название книги
+title: "Как выучить много иностранных языков? Диалектический подход"
+author: "Назаров Руслан"
+
+# Настройки исполнения (отключены для .md файлов)
+execute:
+  execute_notebooks: off
+
+# Настройки оформления
+html:
+  use_edit_page_button: false
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_toc: true
+  extra_navbar: |
+    <p>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+
+# Расширения для корректного отображения формул и блоков
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - dollarmath
+    - amsmath
