@@ -28,3 +28,25 @@ body {
     border-left-color: #2c3e50 !important;
     background-color: #f0f4f8;
 }
+
+/* Возвращаем видимые границы для всех таблиц */
+table {
+    border-collapse: collapse !important;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #adb5bd !important; /* Цвет линий (серый) */
+}
+
+th, td {
+    padding: 10px 15px !important;
+    text-align: left;
+}
+
+/* Выделение шапки таблицы легким фоном */
+th {
+    background-color: #f8f9fa !important;
+    font-weight: bold;
+}
