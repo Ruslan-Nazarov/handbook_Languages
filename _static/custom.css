@@ -29,22 +29,25 @@ body {
     background-color: #f0f4f8;
 }
 
-/* Принудительное отображение границ для всех таблиц в контенте */
-.bd-content table, 
-.bd-content th, 
-.bd-content td {
-    border: 1px solid #888 !important;
+/* Принудительные границы для HTML-таблиц */
+table, th, td {
+    border: 1px solid #444444 !important; /* Темно-серый цвет границ */
     border-collapse: collapse !important;
 }
 
-/* Настройка отступов, чтобы текст не прилипал к границам */
-.bd-content td, 
-.bd-content th {
+/* Внутренние отступы, чтобы текст не прилипал к линиям */
+th, td {
     padding: 8px 12px !important;
 }
 
-/* Делаем шапку таблицы чуть темнее для контраста */
-.bd-content thead th {
-    background-color: #f2f2f2 !important;
-    border-bottom: 2px solid #444 !important;
+/* Фон для заголовков таблиц (thead) */
+thead th {
+    background-color: #eeeeee !important;
+    font-weight: bold;
+}
+
+/* Растягиваем таблицу на всю ширину, если нужно */
+table {
+    width: 100%;
+    margin: 1.5em 0;
 }
