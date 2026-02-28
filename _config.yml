@@ -27,3 +27,7 @@ parse:
     - colon_fence
     - dollarmath
     - amsmath
+
+html:
+  extra_css:
+    - _static/custom.css
