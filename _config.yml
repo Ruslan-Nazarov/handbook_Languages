@@ -14,15 +14,13 @@ execute:
 
 # Настройки оформления
 html:
-  use_edit_page_button: false
-  use_repository_button: true
-  use_issues_button: true
-  home_page_in_toc: true
-  extra_navbar: |
-    <p>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+  extra_css:
+    - _static/custom.css
   google_analytics_id: "G-L9BCXQ2FD1"
   logo: logo.png
   favicon: logo.png
+  navbar_brand_box_2:          # В некоторых версиях помогает этот блок
+    logo_only: true
 
 # Расширения
 parse:
@@ -31,13 +29,10 @@ parse:
     - dollarmath
     - amsmath
 
-html:
-  extra_css:
-    - _static/custom.css
-
 # Настройки автора и копирайта
 author: "Назаров Руслан"
 copyright: "2026"  # Или "2022–2026", если проект длительный
+
 
 
 
