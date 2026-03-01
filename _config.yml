@@ -14,6 +14,7 @@ execute:
 
 # Настройки оформления
 html:
+  home_page_in_toc: True
   extra_css:
     - _static/custom.css
   analytics:
@@ -38,6 +39,7 @@ sphinx:
   config:
     html_theme_options:
       logo_only: true
+
 
 
 
