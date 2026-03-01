@@ -21,8 +21,8 @@ html:
   extra_navbar: |
     <p>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
   google_analytics_id: "G-L9BCXQ2FD1"
-  logo: "_static/logo.png"
-  favicon: "_static/logo.png"
+  logo: logo.png
+  favicon: logo.png
 
 # Расширения
 parse:
@@ -38,6 +38,7 @@ html:
 # Настройки автора и копирайта
 author: "Назаров Руслан"
 copyright: "2026"  # Или "2022–2026", если проект длительный
+
 
 
 
