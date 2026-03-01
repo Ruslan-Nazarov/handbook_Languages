@@ -16,7 +16,8 @@ execute:
 html:
   extra_css:
     - _static/custom.css
-  google_analytics_id: "G-L9BCXQ2FD1"
+  analytics:
+    google_analytics_id: "G-L9BCXQ2FD1"
   logo: logo.png
   favicon: logo.png
   navbar_brand_box_2:          # В некоторых версиях помогает этот блок
@@ -32,6 +33,7 @@ parse:
 # Настройки автора и копирайта
 author: "Назаров Руслан"
 copyright: "2026"  # Или "2022–2026", если проект длительный
+
 
 
 
