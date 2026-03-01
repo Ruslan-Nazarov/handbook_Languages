@@ -34,6 +34,12 @@ parse:
 author: "Назаров Руслан"
 copyright: "2026"  # Или "2022–2026", если проект длительный
 
+sphinx:
+  config:
+    html_theme_options:
+      logo_only: true
+
+
 
 
 
