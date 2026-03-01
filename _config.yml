@@ -20,6 +20,7 @@ html:
   home_page_in_toc: true
   extra_navbar: |
     <p>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
+  google_analytics_id: "G-L9BCXQ2FD1"
 
 # Расширения
 parse:
@@ -35,4 +36,5 @@ html:
 # Настройки автора и копирайта
 author: "Назаров Руслан"
 copyright: "2026"  # Или "2022–2026", если проект длительный
+
 
