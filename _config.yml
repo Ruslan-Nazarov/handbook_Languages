@@ -1,6 +1,5 @@
 # Название книги
 title: О книге
-author: "Назаров Руслан"
 
 # Ссылка на репозиторий
 repository:
@@ -41,6 +40,7 @@ sphinx:
       logo_only: true
       analytics:
         google_analytics_id: "G-L9BCXQ2FD1"
+
 
 
 
