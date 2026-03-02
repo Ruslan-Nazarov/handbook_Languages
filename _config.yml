@@ -39,6 +39,9 @@ sphinx:
   config:
     html_theme_options:
       logo_only: true
+      analytics:
+        google_analytics_id: "G-L9BCXQ2FD1"
+
 
 
 
