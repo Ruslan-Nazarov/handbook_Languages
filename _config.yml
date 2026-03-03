@@ -36,6 +36,8 @@ sphinx:
   config:
     html_theme_options:
       logo_only: false         # ВАЖНО: здесь тоже должно быть false
+   html_js_files:
+      - metrica.js
 
 
 
