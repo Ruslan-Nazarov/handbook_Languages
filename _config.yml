@@ -17,7 +17,7 @@ html:
   logo: "logo.png"
   favicon: "logo.png"
   analytics:
-    google_analytics_id: "G-HCGGF3YL0Q"
+    google_analytics_id: "G-J21RBQ48WS"
   extra_css:
     - _static/custom.css
   navbar_brand_box_2:          # В некоторых версиях помогает этот блок
@@ -36,6 +36,7 @@ sphinx:
   config:
     html_theme_options:
       logo_only: false         # ВАЖНО: здесь тоже должно быть false
+
 
 
 
