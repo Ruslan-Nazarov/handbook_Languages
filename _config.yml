@@ -20,16 +20,6 @@ html:
     - _static/custom.css
   navbar_brand_box_2:          # В некоторых версиях помогает этот блок
     logo_only: false
-  html:
-  extra_footer: |
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J21RBQ48WS"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-PLQBBT7CFS');
-    </script>
 
 metadata:
   description: "Изучение иностранных языков с помощью диалектики"
@@ -44,6 +34,10 @@ sphinx:
   config:
     html_theme_options:
       logo_only: false         # ВАЖНО: здесь тоже должно быть false
+    html_js_files:
+      - ["https://www.googletagmanager.com/gtag/js?id=G-J21RBQ48WS", {"async": "async"}]
+      - "ga.js"
+
 
 
 
