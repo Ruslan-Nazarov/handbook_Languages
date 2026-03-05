@@ -5,7 +5,7 @@
 ```
 ---
 
-[![Обновлено](https://img.shields.io/badge/Версия%20от-16.11.2025-blue)]
+[Обновлено](https://img.shields.io/badge/Версия%20от-16.11.2025-blue)
 [![YouTube](https://img.shields.io/badge/YouTube-@ai__understand-red)](https://www.youtube.com/@ai_understand)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](https://python.org)
 ![GitHub stars](https://img.shields.io/github/stars/Ruslan-Nazarov/handbook_Languages?style=social)
