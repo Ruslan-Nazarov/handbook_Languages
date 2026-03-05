@@ -37,6 +37,8 @@ sphinx:
     html_js_files:
       - ["https://www.googletagmanager.com/gtag/js?id=G-J21RBQ48WS", {"async": "async"}]
       - "ga.js"
+    html_extra_path: ["google3eee9c11b8197c7f.html"]
+
 
 
 
