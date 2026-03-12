@@ -20,18 +20,6 @@ html:
     - _static/custom.css
   navbar_brand_box_2:          # В некоторых версиях помогает этот блок
     logo_only: false
-  extra_footer: |
-    <script type="text/javascript">
-        (function(m,e,t,r,i,k,a){
-            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=107288810', 'ym');
-
-        ym(107288810, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
-    </script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/107288810" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 
 metadata:
   description: "Изучение иностранных языков с помощью диалектики"
@@ -49,11 +37,13 @@ sphinx:
     html_js_files:
       - ["https://www.googletagmanager.com/gtag/js?id=G-J21RBQ48WS", {"async": "async"}]
       - "ga.js"
+      - "metrika.js"
     html_extra_path: ["google3eee9c11b8197c7f.html"]
     html_baseurl: "https://ruslan-nazarov.github.io/handbook_ai/"
     sitemap_url_scheme: "{link}"
   extra_extensions:
     - sphinx_sitemap
+
 
 
 
