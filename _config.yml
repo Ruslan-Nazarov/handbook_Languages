@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 # Название книги
 title: "Как выучить много иностранных языков? Диалектический подход"
 author: "Назаров Руслан"
+copyright: "2026"
 
 # Ссылка на репозиторий
 repository:
@@ -13,34 +13,13 @@ repository:
 execute:
   execute_notebooks: off
 
-# Настройки оформления
-html:
-  use_edit_page_button: false
-  use_repository_button: true
-  use_issues_button: true
-  home_page_in_toc: true
-  extra_navbar: |
-    <p>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
-
-# Расширения
-parse:
-  myst_enable_extensions:
-    - colon_fence
-    - dollarmath
-    - amsmath
-=======
-title: "О книге"
-author: "Назаров Руслан"
-copyright: "2026"
-
-execute:
-  execute_notebooks: off
-
+# Настройки парсинга
 parse:
   myst_enable_extensions:
     - amsmath
     - dollarmath
     - html_image
+    - colon_fence
 
 # Настройки оформления
 html:
@@ -49,52 +28,27 @@ html:
   favicon: "logo.png"
   extra_css:
     - _static/custom.css
-  navbar_brand_box_2:          # В некоторых версиях помогает этот блок
-    logo_only: false
+  use_edit_page_button: false
+  use_repository_button: true
+  use_issues_button: true
+  extra_navbar: |
+    <p>Powered by <a href="https://jupyterbook.org">Jupyter Book</a></p>
 
 metadata:
   description: "Изучение иностранных языков с помощью диалектики"
   keywords: "Языки, диалектика, лингвистика, Руслан Назаров"
   image_path: "logo.png"
 
-# Настройки автора и копирайта
-author: "Назаров Руслан"
-copyright: "2026"  # Или "2022–2026", если проект длительный
-
 sphinx:
   config:
     html_theme_options:
-      logo_only: false         # ВАЖНО: здесь тоже должно быть false
+      logo_only: false
     html_js_files:
       - ["https://www.googletagmanager.com/gtag/js?id=G-J21RBQ48WS", {"async": "async"}]
       - "ga.js"
       - "metrika.js"
     html_extra_path: ["google3eee9c11b8197c7f.html"]
-    html_baseurl: "https://ruslan-nazarov.github.io/handbook_ai/"
+    html_baseurl: "https://ruslan-nazarov.github.io/handbook_Languages/"
     sitemap_url_scheme: "{link}"
   extra_extensions:
     - sphinx_sitemap
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 7b1707ac79d4b28dc614e5a547d1c6f6bf16dbf9
