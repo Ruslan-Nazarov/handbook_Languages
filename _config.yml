@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Название книги
 title: "Как выучить много иностранных языков? Диалектический подход"
 author: "Назаров Руслан"
@@ -27,3 +28,73 @@ parse:
     - colon_fence
     - dollarmath
     - amsmath
+=======
+title: "О книге"
+author: "Назаров Руслан"
+copyright: "2026"
+
+execute:
+  execute_notebooks: off
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - html_image
+
+# Настройки оформления
+html:
+  home_page_in_toc: true
+  logo: "logo.png"
+  favicon: "logo.png"
+  extra_css:
+    - _static/custom.css
+  navbar_brand_box_2:          # В некоторых версиях помогает этот блок
+    logo_only: false
+
+metadata:
+  description: "Изучение иностранных языков с помощью диалектики"
+  keywords: "Языки, диалектика, лингвистика, Руслан Назаров"
+  image_path: "logo.png"
+
+# Настройки автора и копирайта
+author: "Назаров Руслан"
+copyright: "2026"  # Или "2022–2026", если проект длительный
+
+sphinx:
+  config:
+    html_theme_options:
+      logo_only: false         # ВАЖНО: здесь тоже должно быть false
+    html_js_files:
+      - ["https://www.googletagmanager.com/gtag/js?id=G-J21RBQ48WS", {"async": "async"}]
+      - "ga.js"
+      - "metrika.js"
+    html_extra_path: ["google3eee9c11b8197c7f.html"]
+    html_baseurl: "https://ruslan-nazarov.github.io/handbook_ai/"
+    sitemap_url_scheme: "{link}"
+  extra_extensions:
+    - sphinx_sitemap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 7b1707ac79d4b28dc614e5a547d1c6f6bf16dbf9
