@@ -1,3 +1,5 @@
+# Как выучить много иностранных языков? Диалектический подход
+
 ```{image} logo.png
 :alt: Обложка книги
 :align: center
@@ -56,7 +58,7 @@
 
 ---
 
-# Лицензия
+## Лицензия
 
 Текст данной книги доступен на условиях лицензии [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru).
 
