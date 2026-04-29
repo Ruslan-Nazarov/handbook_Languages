@@ -70,3 +70,13 @@ parts:
       - file: 6 Russian/7 сложное предложение
       - file: 6 Russian/8 инфинитив, причастие, герундий
       - file: 6 Russian/приложение
+  - caption: Шаблон
+    chapters:
+      - file: standart/1 простое предложение
+      - file: standart/2 сказуемое - глагол
+      - file: standart/3 подлежащее - существительное - местоимение
+      - file: standart/4 определение - прилагательное - наречие
+      - file: standart/5 дополнение
+      - file: standart/6 обстоятельства
+      - file: standart/7 сложное предложение
+      - file: standart/8 инфинитив, причастие, герундий
