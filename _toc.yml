@@ -70,6 +70,17 @@ parts:
       - file: 6 Russian/7 сложное предложение
       - file: 6 Russian/8 инфинитив, причастие, герундий
       - file: 6 Russian/приложение
+  - caption: Kazakh
+    chapters:
+      - file: 7 Kazakh/1 простое предложение
+      - file: 7 Kazakh/2 сказуемое - глагол
+      - file: 7 Kazakh/3 подлежащее - существительное - местоимение
+      - file: 7 Kazakh/4 определение - прилагательное - наречие
+      - file: 7 Kazakh/5 дополнение
+      - file: 7 Kazakh/6 обстоятельства
+      - file: 7 Kazakh/7 сложное предложение
+      - file: 7 Kazakh/8 инфинитив, причастие, герундий
+
   - caption: Шаблон
     chapters:
       - file: standart/1 простое предложение
